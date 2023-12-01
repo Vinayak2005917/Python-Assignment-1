@@ -1,0 +1,7 @@
+a = int(input("Enter the number: "))
+def isprime(a):
+    for i in range(2,a):
+        if a%i == 0:
+            return "the number is not prime"
+    return "The number is prime"
+print(isprime(a))
